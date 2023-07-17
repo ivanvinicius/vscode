@@ -4,6 +4,7 @@
 
 ## Extensões para instalar no vscode
 
+```js
 1 auto rename tag
 2 color highlight
 3 css modules
@@ -21,3 +22,4 @@
 15 symbolds
 16 tailwind css intellisense
 17 tailwind fold
+```
