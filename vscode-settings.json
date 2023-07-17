@@ -1,0 +1,73 @@
+{
+  "breadcrumbs.enabled": true,
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 17,
+  "editor.lineHeight": 27,
+  "editor.rulers": [80, 120],
+  "editor.tabSize": 2,
+  "editor.parameterHints.enabled": true,
+  "editor.semanticHighlighting.enabled": false,
+  "editor.renderLineHighlight": "gutter",
+  "editor.minimap.enabled": false,
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
+
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.compactFolders": false,
+  "extensions.ignoreRecommendations": true,
+  "dotenv.enableAutocloaking": false,
+  "files.associations": {
+    ".env*": "dotenv"
+  },
+  "material-icon-theme.files.associations": {
+    "styles.ts": "stitches",
+    "styles/home.styles.ts": "stitches",
+    "styles/global.ts": "stitches",
+    "styles/theme.ts": "stitches"
+  },
+  "material-icon-theme.folders.associations": {
+    "querys": "shader",
+    "exceptions": "aurelia",
+    "steps": "custom"
+  },
+
+  "javascript.suggest.autoImports": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "symbols.hidesExplorerArrows": true,
+  "security.workspace.trust.untrustedFiles": "open",
+  "typescript.suggest.autoImports": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "terminal.integrated.fontSize": 13,
+  "workbench.colorTheme": "Min Dark",
+  "workbench.iconTheme": "symbols",
+  "workbench.productIconTheme": "fluent-icons",
+  "workbench.startupEditor": "none",
+  "workbench.editor.labelFormat": "short",
+  "window.zoomLevel": 1,
+
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[postcss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "editor.tokenColorCustomizations": {
+    "textMateRules": []
+  }
+}
